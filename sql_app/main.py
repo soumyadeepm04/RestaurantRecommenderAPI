@@ -85,7 +85,7 @@ def get_preferences(user: str, location: str, db: Session = Depends(get_db)):
     }
     headers = {
         "content-type": "application/x-www-form-urlencoded",
-        "X-RapidAPI-Key": "84b68a91b6msh0a2c5ffa173d868p126979jsn78c86a83b39a",
+        "X-RapidAPI-Key": "",
         "X-RapidAPI-Host": "worldwide-restaurants.p.rapidapi.com"
     }
 
@@ -112,7 +112,7 @@ def get_preferences(user: str, location: str, db: Session = Depends(get_db)):
     }
     headers = {
         "content-type": "application/x-www-form-urlencoded",
-        "X-RapidAPI-Key": "84b68a91b6msh0a2c5ffa173d868p126979jsn78c86a83b39a",
+        "X-RapidAPI-Key": "",
         "X-RapidAPI-Host": "worldwide-restaurants.p.rapidapi.com"
     }
 
